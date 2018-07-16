@@ -1,0 +1,14 @@
+Buka Application>config>config.php
+    ubah $config['base_url'] = 'http://localhost/namafolder';
+Buka Application>config>database.php
+    ubah username=root
+         database=namadatabase
+         pconnect=true
+         db_debug=true
+Buka Application>config>autoload.php
+    ubah $autoload['libraries'] = array('database','form_validation','session');
+Buka Application>config>routes.php
+    ubah $route['default_controller'] = 'nama_controller_utama';
+Buat controller utama First_CI.php pada Application>controllers
+Buat view utama first_ci.php pada Application>views
+Buat model utama first_model.php pada Application>models
